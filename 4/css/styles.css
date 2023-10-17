@@ -1,0 +1,282 @@
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #373636;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+.arrivals_image img {
+  width: 60px;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 300; 
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+  /* background-color: #ff4c68; */
+  background-image: url('images/book-covers-min.jpg');
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 100%;
+  position: absolute;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* collection Section */
+
+#collections {
+  background-color: #fff;
+}
+
+.collection-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.collection-image {
+  width: 30%;
+  margin: 20px;
+}
+
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA Section */
+
+
+/* Footer Section */
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+
+.carousel-control-next-icon .carousel-control-next{
+  color: #373636;
+}
+
+.news {
+  width: 100%;
+  height: auto;
+  margin: 25px 0;
+  margin-bottom: 100px;
+  padding: 100px 0;
+}
+
+.news p {
+  color: #fff;
+}
+
+.news h1 {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.news .news_box {
+
+  width: 95%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.news .news_box .news_card {
+  margin: 0 auto;
+  width: 450px;
+  height: auto;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+
+.news .news_box .news_card .news_img {
+  width: 450px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.news .news_box .news_card .news_img img {
+  width: 450px;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.news .news_box .news_card .news_tag {
+  padding: 20px;
+  color: white;
+}
+
+.news .news_box .news_card .news_tag h2 {
+  color: #549be7;
+}
+
+.news .news_box .news_card .news_tag p {
+  margin-top: 10px;
+  text-align: justify;
+  line-height: 22px;
+}
+
+.news .news_box .news_card .news_tag .news_icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #089da1;
+  cursor: pointer;
+}
+
+/* Maps */
+
+.maps {
+  margin-bottom: 35px;
+}
+
+.maps h1 {
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.map_wraper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Optional: Set a specific height to center the map vertically within the viewport */
+}
+
+.map_wraper iframe {
+  width: 960px;
+  height: 640px;
+}
